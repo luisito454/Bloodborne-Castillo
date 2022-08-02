@@ -39,3 +39,17 @@ p {
     border-radius: 2% 2% 2% 2%;
     text-align: center;
 }
+
+.botonBuscar {
+    background-color: rgba(52, 132, 238, 0.849);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .cajaPrincipal {
+        width: 100%;
+    }
+
+    .imgBloodborneIndex {
+        width: auto;
+    }
+}
