@@ -1,0 +1,10 @@
+header {
+    .botonBuscar {
+        background-color: rgb(109, 201, 231);
+        color: black;
+
+        &:hover {
+            background-color: black;
+        }
+    }
+}

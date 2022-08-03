@@ -1,0 +1,32 @@
+header .botonBuscar {
+  background-color: #6dc9e7;
+  color: black; }
+  header .botonBuscar:hover {
+    background-color: black; }
+
+body {
+  background-image: url(../img/fondo.jpg); }
+  body .cajaPrincipal {
+    background: #e9e088;
+    background: radial-gradient(circle, rgba(233, 224, 136, 0.566264) 0%, black 100%);
+    border: 2px black solid;
+    width: 60%;
+    height: 85%;
+    position: center;
+    left: 380px;
+    border-radius: 2% 2% 2% 2%;
+    text-align: center; }
+  body .textoConTitulo {
+    color: #ece7b8; }
+  body h1 {
+    color: #fcef81; }
+  body h2 {
+    color: #fcef81; }
+  body h3 {
+    color: #fcef81; }
+  body p {
+    color: #eaf180; }
+
+* {
+  margin: 0;
+  padding: 0; }
