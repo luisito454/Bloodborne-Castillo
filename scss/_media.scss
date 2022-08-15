@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {
     .cajaPrincipal {
@@ -12,3 +9,10 @@
         width: auto;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .cajaPrincipal {
+     width: 60%;
+     height: 85%;
+    }
+    }
