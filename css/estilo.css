@@ -26,6 +26,8 @@ body {
     color: #f8f1d9; }
   body p {
     color: white; }
+  body strong {
+    color: #f8f1d9; }
 
 * {
   margin: 0;
@@ -34,7 +36,9 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 576px) {
   .cajaPrincipal {
     width: 100%; }
-  h1 {
-    font-size: medium; }
   .imgBloodborneIndex {
     width: auto; } }
+
+* {
+  margin: 0;
+  padding: 0; }

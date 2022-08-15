@@ -1,22 +1,9 @@
 @import "variables";
 @import "header";
 @import "body";
+@import "media";
 
 * {
     margin: 0;
     padding: 0;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 576px) {
-    .cajaPrincipal {
-        width: 100%;
-    }
-
-    h1 {
-        font-size: medium;
-    }
-
-    .imgBloodborneIndex {
-        width: auto;
-    }
-}
+ }
