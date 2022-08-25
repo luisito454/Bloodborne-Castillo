@@ -10,8 +10,6 @@ body {
     background: #e9e088;
     background: radial-gradient(circle, rgba(233, 224, 136, 0.566264) 0%, black 100%);
     border: 2px black solid;
-    /*  width: 60%;
-        height: 85%; */
     position: center;
     left: 380px;
     border-radius: 2% 2% 2% 2%;
