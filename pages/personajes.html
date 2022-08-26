@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+
+                <nav class="navbar navbar-dark bg-dark fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Bloodborne</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Enlaces</h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./noticias.html">Noticas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./personajes.html">Personajes</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Ver más
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-dark">
+                                            <li><a class="dropdown-item" href="./guias.html">Guias</a></li>
+                                            <li><a class="dropdown-item" href="./trucos.html">Trucos</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Buscar"
+                                        aria-label="Search">
+                                    <button class="btn btn-success botonBuscar" type="submit">Buscar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Buscar..."
+                        aria-label="Buscar">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main class="cajaPrincipal container-fluid">
+        <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Bloodborne</h1>
+
+        <h2 data-aos="flip-left">Personajes</h2>
+
+        <p class="nombrePersonaje">Adeline</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/1280x720/3-2018/201838144956_1.jpg.webp" class="card-img-top"
+                alt="Imagen de Adeline">
+            <div class="card-body">
+                <p class="card-text">Adeline</p>
+            </div>
+        </div>
+        <p>Hay un... "algo" atrapado en el Pabellón de Investigación. Después de sufrir un montón de experimentos,
+            lo único que busca este personaje es descansar como sea</p>
+        <p>Se trata de una de las víctimas de los experimentos que se llevaban a cabo aquí. Atrapada permanentemente
+            en uno de los laboratorios, aún conserva una parte de su conciencia, e incluso recuerda a alguien. Al
+            principio, de hecho, nos confundirá con ese alguien, una tal "Lady María", a la que seguramente
+            conozcamos más adelante.</p>
+
+        <p class="nombrePersonaje"> Adella</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/720x720/3-2018/201835155521_1.jpg" class="card-img-top"
+                alt="Imagen de Adella">
+            <div class="card-body">
+                <p class="card-text">Adella</p>
+            </div>
+        </div>
+        <p>Una religiosa de la antigua Iglesia. Sus vivencias la han hecho desconfiada, pero su fantasimo sigue
+            intacto. Tanto, que está dispuesta a matar inocentes por él.</p>
+
+        <p class="nombrePersonaje"> Alfred</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://bloodborne.wiki.fextralife.com/file/Bloodborne/alfred_499x281_low.jpg" class="card-img-top"
+                alt="Imagen de Alfred">
+            <div class="card-body">
+                <p class="card-text">Alfred</p>
+            </div>
+        </div>
+        <p>En Yharnam, además de Cazadores, hay una especie de soldados divinos que buscan acabar con los Sangrevil.
+            Ocultos bajo la capa de la justicia, son tan crueles como lo que odian.</p>
+        <p>Alfred es uno de los personajes secundarios más importantes del juego. De él conseguiremos la Rueda de
+            Logarius, pero solamente si completamos su misión.</p>
+
+        <p class="nombrePersonaje"> Anciana Solitaria</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://i.ytimg.com/vi/3e9n2KJmLa8/hqdefault.jpg" class="card-img-top"
+                alt="Imagen de Anciana Solitaria">
+            <div class="card-body">
+                <p class="card-text">Anciana Solitaria</p>
+            </div>
+        </div>
+        <p>Un personaje al que su edad ha convertida en una señora un tanto desagradable. Pero como cualquier buena
+            abuelilla, hará lo posible por echarnos una mano.</p>
+
+        <p class="nombrePersonaje"> Annalise</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/960x720/3-2018/201834231936_1.jpg" class="card-img-top"
+                alt="Imagen de Annalise">
+            <div class="card-body">
+                <p class="card-text">Annalise</p>
+            </div>
+        </div>
+        <p>La reina del castillo de Cainhurst, última líder conocida de los Sangrevil y la nobleza de Yharnam. Su
+            Alteza estaría dispuesta a aceptar un nuevo caballero dispuesto a hacer un sacrificio.</p>
+
+        <p class="nombrePersonaje"> Arianna</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX7xtIx7ZhpRQ8_7uPEQRInZ1ZD8kxhdWmdOfL8XFNhmwagccBRhaI578ydtn6Uxkz1nc&usqp=CAU" class="card-img-top"
+                alt="Imagen de Arianna">
+            <div class="card-body">
+                <p class="card-text">Arianna</p>
+            </div>
+        </div>
+        <p>Algunos de los personajes del juego están más dominados por la noche que otros. Los hay, incluso, que
+            podrían ser el punto de origen de un posible futuro mal.</p>
+        <p>Arianna es uno de los personajes más importantes del juego. Esto se debe a que es uno de los personajes
+            cuya cadena de eventos puede afectar al final del juego. Ella nos dará uno de los cuatro Tercio de
+            cordón umbilical que tenemos que tener en nuestro inventario al acabar la historia para poder ver el
+            tercer final, por tanto es importante saber qué, y sobre todo cuándo, debemos hacer ciertas cosas para
+            completar su cadena de misiones.</p>
+
+        <p class="nombrePersonaje"> Brador</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://muchogamer.com/wp-content/uploads/2015/11/23166680171_f01b9cd36d_h.jpg" class="card-img-top"
+                alt="Imagen de Brador">
+            <div class="card-body">
+                <p class="card-text">Brador</p>
+            </div>
+        </div>
+        <p>Un Cazador que estaba a las órdenes de la Iglesia. Se volvió tan loco y sanguinario que tuvo que ser
+            encerrado para siempre en la celda más profunda sin posibilidad de ser liberado.</p>
+        <p>Este Cazador Te invade en puntos fijos y en tu camino, por lo que es imposible pasarlo por alto: brilla
+            es muy agresivo, y lleva una maza/espada más grande que él con la que intenta convertirte en zumo de
+            Cazador.</p>
+
+        <p class="nombrePersonaje"> Djura</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/master/3-2018/201833171539_1.jpg" class="card-img-top"
+                alt="Imagen de Djura">
+            <div class="card-body">
+                <p class="card-text">Djura</p>
+            </div>
+        </div>
+        <p>Djura, "el polvorilla". Un extremadamente peligroso cazador que considera su deber proteger el Viejo
+            Yharnam... de los nuevos cazadores que intentan matar a sus bestias.</p>
+        <p>Djura es uno de los antiguos cazadores y el único afincado en Viejo Yharnam que en nuestro primer
+            encuentro se mostrara hostil.</p>
+
+        <p class="nombrePersonaje"> Eileen, la Cazadora Cuervo</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/900x900/3-2018/201833151212_1.jpg" class="card-img-top"
+                alt="Imagen de Eileen">
+            <div class="card-body">
+                <p class="card-text">Eileen, la Cazadora Cuervo</p>
+            </div>
+        </div>
+        <p>La Cazadora Cuervo está en Yharnam con un objetivo muy claro. Ella es la responsable de poner en su
+            sitio a los que han perdido el camino y se han vuelto locos.</p>
+        <p>Eileen es un personaje muy fácil de identificar. Su traje hecho de plumas es algo
+            que llama mucho la atención, y el peligroso filo de sus espadas es lo último que han visto muchos
+            Cazadores que se han vuelto contra sus semejantes.</p>
+
+        <p class="nombrePersonaje"> Gehrman, el primer Cazador</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://i1.sndcdn.com/artworks-000148051073-0n4neh-t500x500.jpg" class="card-img-top"
+                alt="Imagen de Gehrman">
+            <div class="card-body">
+                <p class="card-text">Gehrman, el primer cazador</p>
+            </div>
+        </div>
+        <p>El Cazador original, padre de todas las técnicas de combate.</p>
+        <p>Creador de la base de todas las Armas con Truco del grupo. Un Grande lo mantiene
+            atado, contra su voluntad, al Sueño del Cazador.</p>
+
+        <p class="nombrePersonaje"> Gilbert</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/640x360/3-2018/20183215124_1.jpg" class="card-img-top"
+                alt="Imagen de Gilbert">
+            <div class="card-body">
+                <p class="card-text">Gilbert</p>
+            </div>
+        </div>
+        <p>Se le puede ver en una casa situada en el centro de Yharnam. El cazador puede hablar con él a través de
+            una ventana, previniéndose de los peligros de la ciudad.</p>
+        <p>Gilbert es el primer personaje al que "conoceremos", pese a que no llegaremos a verlo ante nosotros hasta
+            un momento muy determinado... en el que ya no será él mismo.</p>
+
+        <p class="nombrePersonaje">Henryk, el viejo cazador</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://img.wattpad.com/ed9b237da5d5a432d11ea4b88a170d22910891ea/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f55645f73625444585f48422d48773d3d2d3637333634363730372e3135373865666538663866323863653236323339323232353031342e706e67?s=fit&w=720&h=720" class="card-img-top"
+                alt="Imagen de Henryk">
+            <div class="card-body">
+                <p class="card-text">Henryk, el viejo cazador</p>
+            </div>
+        </div>
+        <p>El taciturno Henryk era un viejo cazador que acompañaba al padre Gascoigne y, aunque formaban un dúo
+            aguerrido y gallardo, su asociación fue la causa de la larga y trágica vida de Henryk.</p>
+        <p>El peculiar atuendo amarillo de Henryk resiste a los rayos y le será de gran ayuda a cualquier cazador que
+            haya heredado la responsabilidad de dicha labor.</p>
+
+        <p class="nombrePersonaje"> Hombre Desconfiado</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/ivandal/1146x600/3-2018/201835162648_1.jpg" class="card-img-top"
+                alt="Imagen de Hombre Desconfiado">
+            <div class="card-body">
+                <p class="card-text">Hombre Desconfiado</p>
+            </div>
+        </div>
+        <p>Un tipo de lo más desconfiado con los Cazadores. Y con muy mala idea, tanto que te recomendará hacer todo
+            lo contrario de lo que realmente deberías intentar.</p>
+
+        <p class="nombrePersonaje"> Iosefka</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://bloodborne.wiki.fextralife.com/file/Bloodborne/Iosefka_Profile.jpg?v=1501780991770" class="card-img-top"
+                alt="Imagen de Iosefka">
+            <div class="card-body">
+                <p class="card-text">Iosefka</p>
+            </div>
+        </div>
+        <p>Una enfermera que intenta sobrevivir en Yharnam. El problema es que, quizás, haya algo mucho más allá de
+            lo que vemos. Y puede que nunca la hayamos visto realmente...</p>
+        <p>osefka es un personaje que influye en el final que veremos al terminar el juego. Esto se debe a que de
+            "ella" conseguiremos uno de los cuatro Tercio de cordón umbilical, de los que necesitamos tener en el
+            inventario tres, para poder ver el tercer final del juego.</p>
+
+        <p class="nombrePersonaje"> Iosefka Falsa</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://bloodborne.wiki.fextralife.com/file/Bloodborne/Iosefka_2.jpg" class="card-img-top"
+                alt="Imagen de Iosefka Falsa">
+            <div class="card-body">
+                <p class="card-text">Iosefka Falsa</p>
+            </div>
+        </div>
+        <p>No se conocen muchos detalles de su persona, pero lo que se sabe es que ella no es Iosefka, sino una
+            integrante del Coro, esto podemos verlo en los ataques arcanos que ella utiliza como el Augurio de
+            Ebrietas o Una llamada del más allá. Al conocerla nos pedirá que mandemos a personas que "aún estén
+            cuerdas" a su clínica, prometiendo curarlas y cuidarlas, pero hay un tono inquieto en su voz que nos
+            puede dar desconfianza.</p>
+
+        <p class="nombrePersonaje"> La Muñeca</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/master/3-2018/20183910159_1.jpg" class="card-img-top"
+                alt="Imagen de La Muñeca">
+            <div class="card-body">
+                <p class="card-text">La Muñeca</p>
+            </div>
+        </div>
+        <p>Nuestra dama de negro, doncella de la hoguera, nuestro ayudante en el cuartel general y potenciador de
+            niveles. Y quizás sea algo más, que no vemos a simple vista.</p>
+        <p>La Muñeca es un personaje un tanto misterioso al que nos encontraremos en el Sueño del Cazador. En
+            nuestro primer viaje no estará siquiera consciente, pero al conseguir el primer punto de Lucidez,
+            "despertará" y comenzará a cumplir su función.</p>
+
+        <p class="nombrePersonaje"> Lady María de la torre del Reloj Astral</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/1200x630/8-2018/201882713175_1.jpg" class="card-img-top"
+                alt="Imagen de Lady María">
+            <div class="card-body">
+                <p class="card-text">Lady María de la torre del reloj Astral</p>
+            </div>
+        </div>
+        <p>Una de las primeras cazadoras. La obsesión de Gehrman, que llegó a darle su aspecto a la Muñeca del Sueño
+            del Cazador. Sin embargo, la original es infinitamente más poderosa.</p>
+        <p>Lady María es uno de los Antiguos Cazadores. Alumna directa de Gehrman, el Primer Cazador, y familiar de
+            Annalise, reina de los Sangrevil. Después de la masacre que dio lugar al nacimiento de la Pesadilla del
+            Cazador, arrojó su arma a un pozo y decidió que nunca permitiría que nadie más se acercara al poblado,
+            intentando compensar todo el daño que había ayudado a causar.</p>
+
+        <p class="nombrePersonaje"> Laurence, el primer Vicario</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/master/3-2018/201838182646_1.jpg" class="card-img-top"
+                alt="Imagen de Laurence">
+            <div class="card-body">
+                <p class="card-text">Laurence, el primer Vicario</p>
+            </div>
+        </div>
+        <p>La primera cabeza visible de la Iglesia. La muerte no le ha sentado nada bien, y se ha convertido en una
+            de las bestias más peligrosas del pasado, el presente y el futuro.</p>
+        <p>Laurence, el Primer Vicario, intentó hacer uso de la Antigua Sangre para poder hacer el bien. Sin
+            embargo, como es evidente, esto salió fatal. Al final, su cabeza acabó perdida en la Pesadilla del
+            Cazador, y sus restos monstruosos descansan esperando que alguien se atreva a despertarlo.</p>
+
+        <p class="nombrePersonaje"> Ludwig, la Espada Sagrada</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/640x360/3-2018/201837174018_1.jpg" class="card-img-top"
+                alt="Imagen de Ludwig">
+            <div class="card-body">
+                <p class="card-text">Ludwig, la Espada Sagrada</p>
+            </div>
+        </div>
+        <p>Ludwig es uno de los primeros Cazadores. Uno de los compañeros de Gehrman, y parte del equipo que asaltó
+            el pueblo cuando un Grande se quedó varado en la orilla. Atrapado en la Pesadilla, ha quedado tan
+            deformado por la infección de la sangre que ni siquiera es consciente de que lleva su propia arma
+            clavada en la espalda.</p>
+
+        <p class="nombrePersonaje"> Mártir Logarius</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/1437x1078/3-2018/201836172321_1.jpg" class="card-img-top"
+                alt="Imagen de Mártir Logarius">
+            <div class="card-body">
+                <p class="card-text">Mártir Logarius</p>
+            </div>
+        </div>
+        <p>En su obsesión por acabar con los Sangrevil, Logarius terminó convertido en un ser demoníaco.</p>
+        <p>Los Ejecutores llevan muchos años persiguiendo a los Sangrevil. Logarius, su líder, llegó hasta el
+            Castillo de Cainhurst y tiene acorralada a la reina, pero por algún motivo no es capaz de encontrar la
+            sala del trono en la que se esconde.</p>
+
+        <p class="nombrePersonaje"> Micolash, huésped de la Pesadilla</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://gcdn.lanetaneta.com/wp-content/uploads/2022/01/Bloodborne-Micolash-Boss-Guide-consejos-trucos-y-estrategias.jpg" class="card-img-top"
+                alt="Imagen de Micolash">
+            <div class="card-body">
+                <p class="card-text">Micolash, huésped de la Pesadilla</p>
+            </div>
+        </div>
+        <p>"Más ojos, más ojos" fue el mantra que encerró a Micolash en un sueño eterno.</p>
+        <p>Los Escolares de Mensis hicieron algo terriblemente mal y el resultado fue quedar atrapados. Ahora se
+            encuentran en una dimensión fuera de Yharnam, a merced de Mergo, algo que nunca llegó a nacer, pero
+            tampoco llegó a morir.</p>
+
+        <p class="nombrePersonaje"> Patches</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://bloodborne.wiki.fextralife.com/file/Bloodborne/patches_499x281_low.jpg" class="card-img-top"
+                alt="Imagen de Patches">
+            <div class="card-body">
+                <p class="card-text">Patches</p>
+            </div>
+        </div>
+        <p>El amistoso Patches, siempre dispuesto a echar una mano a aquellos que estén en apuros. No hay nada
+            extraño en este personaje y por supuesto, no te tirará por un precipicio.</p>
+        <p>Patches es un personaje que buscará siempre la más mínima ocasión para tendernos una trampa y así
+            matarnos.</p>
+
+        <p class="nombrePersonaje"> Simon</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/m/3-2018/201838174846_1.jpg" class="card-img-top"
+                alt="Imagen de Simon">
+            <div class="card-body">
+                <p class="card-text">Simon</p>
+            </div>
+        </div>
+        <p>Uno de los cazadores originales de la Iglesia. Simon odia las armas de fuego y eso se refleja en el arma
+            que conseguiremos de sus manos cuando hagamos lo necesario.</p>
+        <p>Simon es un personaje secundario que nos encontraremos relativamente pronto en el DLC. Uno de los
+            primeros Cazadores de la Iglesia de la Sanación, que a medida que avanzaba la tecnología, encontraba
+            menos gusto por los nuevos métodos. Disfrazado de mendigo, se dedicó durante mucho tiempo a eliminar a
+            los habitantes de Yharnam sospechosos de haber caído víctimas de la infección de la sangre.</p>
+        <p>Aunque antaño fue un gran defensor de Ludwig y los métodos de la Iglesia, ha decidido infiltrarse de
+            alguna manera en la Pesadilla del Cazador para ponerle fin (o solución, según se mire) al problema que
+            se ha creado por los terribles acontecimientos del pasado.</p>
+
+        <p class="nombrePersonaje"> Valtr</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/i/1080x1080/3-2018/201839104915_1.jpg" class="card-img-top"
+                alt="Imagen de Valtr">
+            <div class="card-body">
+                <p class="card-text">Valtr</p>
+            </div>
+        </div>
+        <p>Un tipo honorable, que busca Sabandijas para demostrar la valía de sus intenciones. Habla con él para
+            tener de tu parte a uno de los aliados más inusuales.</p>
+        <p>Una vez has hablado con él podrás invocarlo en el combate que tiene lugar en el DLC contra Ludwig, la
+            espada sagrada.</p>
+
+        <p class="nombrePersonaje"> Viola y su hermana</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://pm1.narvii.com/6413/f6d21b0ffc8613596f99cb9e27a302247cf2e1fb_hq.jpg" class="card-img-top"
+                alt="Imagen de Viola y su hermana">
+            <div class="card-body">
+                <p class="card-text">Viola y su hermana</p>
+            </div>
+        </div>
+        <p>Una familia que intentaba salir adelante en Yharnam ha sido rota por una terrible bestia. Dos hermanas
+            separadas intentan dar la una con la otra y el cazador podrá ayudarlas.</p>
+
+        <p class="nombrePersonaje"> Yamamura</p>
+        <div class="card imagenPersonaje" style="width: 18rem;">
+            <img src="https://media.vandal.net/m/3-2018/20183815139_1.jpg" class="card-img-top"
+                alt="Imagen de Yamamura">
+            <div class="card-body">
+                <p class="card-text">Yamamura</p>
+            </div>
+        </div>
+        <p>Un misterioso personaje que se encuentra encerrado en una celda de la Pesadilla del Cazador. Sabemos
+            entre poco y nada de él, pero nos ofrecerá su ayuda.</p>
+
+
+        <h2 data-aos="flip-left">Bestias</h2>
+
+
+        <p class="nombrePersonaje"> Amygdala</p>
+        <p>Una bestia claramente lovecraftiana y que está en más lugares de lo que crees.</p>
+        <p>Amygdala es uno de los Grandes responsables de la situación en Yharnam. Su presencia es tan importante
+            que hay varias estatuas del monstruo repartidas por la ciudad, y está relacionado de forma directa con
+            una de las zonas extradimensionales que existen en el juego.</p>
+
+        <p class="nombrePersonaje"> Bestia clérigo</p>
+        <p>Las transfusiones de sangre en las personas más fuertes suelen tener resultados como esta criatura.</p>
+        <p>Este monstruo es el resultado de uno de los más altos miembros de la Iglesia, transformado por la
+            influencia de la Antigua Sangre. Podrás ver indicios de su presencia mientras atraviesas Yharnam, como
+            una premonición de lo que se te viene encima cuando llegues al Gran Puente.</p>
+
+        <p class="nombrePersonaje"> Bestia oscura Paarl</p>
+        <p>Un peligroso perro guardián, endemoniado y electrificado.</p>
+        <p>En el camino que une Yahar'gul con el Viejo Yharnam se ha instalado un mutante capaz de controlar los
+            rayos al que deberemos enfrentarnos si queremos utilizar el atajo.</p>
+
+        <p class="nombrePersonaje"> Bestia sedienta de sangre</p>
+        <p>Si no era lo suficientemente violenta, esta criatura fue despellejada y destruirá todo lo que se cruce en
+            su camino.</p>
+        <p>Los orígenes de esta criatura son inciertos, aunque existe una teoría según la cual sería un antiguo
+            pthumeriano maldito. Sea como sea, es un monstruo muy peligroso.</p>
+
+        <p class="nombrePersonaje"> Brujas de Hemwick</p>
+        <p>Un cementerio, el lugar ideal para que se esconda una terrible bruja caníbal.</p>
+        <p>Las Brujas de Hemwick son uno de los jefes opcionales de Bloodborne. Esta cosa se ha instalado en una zona
+            donde se acumulan los cadáveres, un túmulo, con algún oscuro fin. Se sabe que las brujas están reuniendo
+            globos oculares de los muertos, pero no está claro cuál es el fin de esto.</p>
+
+        <p class="nombrePersonaje"> Ebrietas</p>
+        <p>La criatura que los yharnamitas descubrieron en una catacumba, y auténtico origen de la enfermedad.</p>
+        <p>Los habitantes de Yharnam encontraron "algo" en las profundas ruinas bajo la ciudad. Un Grande. Ese Grande no
+            era otro que Ebrietas, de quien salió la Sangre Antigua que llevaría a todos a este desastre.</p>
+
+        <p class="nombrePersonaje"> El Renacido</p>
+        <p>La academia cometió un gravísimo error jugando con la vida y la muerte. Un error gigantesco y letal.</p>
+        <p>Los experimentos que llevaron a cabo los Escolares de Mensis tuvieron efecto al intentar contactar con un
+            Grande... pero desde luego, no el esperado. Esta monstruosidad es casi todo lo que queda de la sabiduría
+            de Micolash y sus subordinados.</p>
+
+        <p class="nombrePersonaje"> Emisario celestial</p>
+        <p>Un fracaso de laboratorio que ahora sirve de guardián.</p>
+        <p>El Coro, una de las ramas de la iglesia de Yharnam, ha estado haciendo terribles experimentos con
+            huérfanos. El resultado ha sido esta monstruosidad que no debería existir y tenemos que eliminar, aunque
+            parezca tener un mensaje de más allá de las estrellas.</p>
+
+        <p class="nombrePersonaje"> Fracasos Vivientes</p>
+        <p>Como su propio nombre indica, esta cosa es el resultado de muchos y muchos experimentos que no salieron
+            bien. Ahora será necesario acabar con ellos para seguir adelante</p>
+        <p>El Emisario Celestial fue el producto final de una serie de experimentos llevados a cabo por la Iglesia,
+            que tuvieron como resultado un pseudogrande. Hasta cierto punto, podría considerarse un tipo de éxito.
+            Sin embargo, para llegar a ese punto hicieron falta muchos más experimentos, que tuvieron como resultado
+            la creación de estas criaturas con una conexión arcana con los poderes del cosmos.</p>
+
+        <p class="nombrePersonaje"> Huérfano de Kos</p>
+        <p>El auténtico origen de la Pesadilla del Cazador. Atrapado por la masacre de la aldea de pescadores, el
+            Huérfano ha creado su propio mundo de dolor, que nosotros hemos venido a terminar.</p>
+        <p>Cuando Kos llegó a la aldea de los pescadores, sus habitantes terminaron cayendo bajo la infección de la
+            sangre. Esto fue lo que llevó a Gehrman, Ludwig, Lady María y el resto de los Antiguos Cazadores a caer
+            sobre la aldea exterminando todo aquello que viviera. Esto incluye al Grande que quedó varado en la
+            orilla y que dejó atrás un hijo que, buscando vengan, creó la Pesadilla del Cazador.</p>
+
+        <p class="nombrePersonaje"> Nodriza de Mergo</p>
+        <p>La guardiana de una de las fuentes de la Pesadilla del Cazador es un enemigo temible.</p>
+        <p>Oedon consiguió dejar embarazada a Yharnam, la reina de los pthumerianos. Fruto de esta concepción nació
+            Mergo, cuya Nodriza lo protege ante cualquiera que ose acercarse.</p>
+
+        <p class="nombrePersonaje"> Presencia lunar</p>
+        <p>El origen de todo mal, la respuesta a todas las preguntas y la llave de una nueva existencia.</p>
+        <p>Gehrman estaba encadenado al Sueño del Cazador por un Grande. La Presencia Lunar ha tenido al Primer
+            Cazador atado a Yharnam durante muchos años, y ahora busca un sustituto para el anciano guerrero.</p>
+
+        <p class="nombrePersonaje"> Rom, la Araña Vacua</p>
+        <p>Una fuente de la Pesadilla y obsesión de Wilhelm en la Academia de Byrgenwerth.</p>
+        <p>Willem, uno de los tres pilares de Yharnam en su momento, tenía bajo su mando a los escolares de
+            Byrgenwerth. Buscando la Verdad Insondable, algo llevó a la creación de Rom, un Grande artificial... con
+            todos esos ojos que buscaban.</p>
+
+        <p class="nombrePersonaje"> Sombras de Yharnam</p>
+        <p>Tres infectados con ínfulas pretenden interponerse en nuestro camino.</p>
+        <p>Las Sombras de Yharnam son el obstáculo antes de llegar a Byrgenwerth. La demostración viviente (o al
+            menos, no-muerta) de que un grupo de furiosos monstruos puede ser más peligroso que el dragón más
+            grande.</p>
+
+        <p class="nombrePersonaje"> Vicaria Amelia</p>
+        <p>La pobre Amelia, transformada en una de las criaturas más peligrosas de la ciudad.</p>
+        <p>La Vicaria Amelia es la última cabeza visible que tuvo la Iglesia de la Sanación antes de la gran plaga
+            provocada por la Antigua Sangre. Como tal, es consciente de la transformación que sufrirá antes o
+            después y se encuentra en la Gran Catedral, esperando el inevitable destino.</p>
+
+        <p class="nombrePersonaje"> Yharnam, reina pthumeria</p>
+        <p>En las profundidades de las mazmorras de cáliz se esconde la reina que dio nombre a la ciudad.</p>
+        <p>Yharnam, la reina pthumeria, es la soberana de la raza que vivía en la ciudad que ahora lleva su nombre.
+            De alguna manera sigue con vida al fondo de las grandes ruinas que van hacia el centro de la tierra.</p>
+    </main>
+
+
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center bg-dark">
+            <div class="d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="100%" height="50px">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; Página creada por Luis Castillo</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+
+    <!-- script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
