@@ -34,6 +34,8 @@ body {
   body .nombrePersonaje {
     font-family: 'Playfair Display', serif;
     font-weight: bold; }
+  body .textoContacto {
+    color: #ece7b8; }
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {
   .cajaPrincipal {

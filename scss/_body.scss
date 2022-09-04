@@ -1,49 +1,53 @@
    body {
 
-   .cajaPrincipal {
-        background: rgb(233, 224, 136);
-        background: radial-gradient(circle, rgba(233, 224, 136, 0.5662640056022409) 0%, rgba(0, 0, 0, 1) 100%);
-        border: 2px black solid;
-        position: center;
-        left: 380px;
-        border-radius: 2% 2% 2% 2%;
-        text-align: center;
-    }
+       .cajaPrincipal {
+           background: rgb(233, 224, 136);
+           background: radial-gradient(circle, rgba(233, 224, 136, 0.5662640056022409) 0%, rgba(0, 0, 0, 1) 100%);
+           border: 2px black solid;
+           position: center;
+           left: 380px;
+           border-radius: 2% 2% 2% 2%;
+           text-align: center;
+       }
 
-    .textoConTitulo {
+       .textoConTitulo {
+           color: #ece7b8;
+       }
+
+       h1 {
+           color: $color-primario;
+       }
+
+       h2 {
+           color: $color-primario;
+       }
+
+       h3 {
+           color: $color-primario;
+       }
+
+       p {
+           color: white;
+       }
+
+       strong {
+           color: $color-primario;
+       }
+
+       .imagenPersonaje {
+           background-color: rgb(71, 70, 70);
+           color: #ece7b8;
+           padding: 0%;
+       }
+
+       .nombrePersonaje {
+           font-family: 'Playfair Display', serif;
+           font-weight: bold;
+       }
+
+       background-image: url(../img/fondo.jpg);
+
+       .textoContacto {
         color: #ece7b8;
-    }
-
-    h1 {
-        color: $color-primario;
-    }
-
-    h2 {
-        color: $color-primario;
-    }
-
-    h3 {
-        color: $color-primario;
-    }
-
-    p {
-        color: white;
-    }
-
-    strong {
-        color: $color-primario;
-    }
-
-    .imagenPersonaje {
-        background-color: rgb(71, 70, 70);
-        color: #ece7b8;
-        padding: 0%;
-    }
-
-    .nombrePersonaje {
-        font-family: 'Playfair Display', serif;
-        font-weight: bold;
-    }
-
-    background-image: url(../img/fondo.jpg);
-}
+       }
+   }
